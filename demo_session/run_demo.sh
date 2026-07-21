@@ -9,9 +9,8 @@
 # hash-chained sqlite history. Three flows: happy path, caught-error path, and the
 # two-witness reconciliation-MISMATCH path (the gate blocks a receipt that can't reconcile).
 #
-# For the REAL model path (WS-A extraction + WS-B audit on gemma3/MLX), boot the app with:
+# For the REAL model path (extraction + audit on gemma3/MLX), boot the app with:
 #   BOLETO_ADAPTER=real BOLETO_MODEL=gemma3:latest .venv-gemma/bin/python -m uvicorn app.server:app --host 127.0.0.1 --port 8010
-# (see results/WS-E-RESULTS.md §"real-model run" for the captured numbers).
 set -euo pipefail
 cd "$(dirname "$0")/.."
 

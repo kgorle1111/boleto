@@ -50,3 +50,13 @@ env/
 DEVPOST.md
 SETUP.md
 assets/screenshots/linkedin/
+
+# internal build reports, raw eval logs, dead scripts, baseline materials (kept local)
+htr_harness.py
+results/WS-*.md
+evals/results/WS-*.md
+evals/results/config_sweep_*
+evals/results/eval_log.md
+evals/results/eval_2026-07-19_*
+evals/results/human_baseline/
+evals/results/archive/
