@@ -1,0 +1,44 @@
+{
+  "session_id": "demo",
+  "lines": [
+    {
+      "item": "piece_earnings",
+      "amount": "300.00",
+      "citation": "LC \u00a7226.2(a)",
+      "arithmetic": "\u03a3(units \u00d7 rate) across 5 days = 300.00",
+      "sources": [
+        "d3.rows[0].units",
+        "d3.rows[0].rate"
+      ],
+      "dollar_sensitivity": {
+        "d3.rows[0].units": "2.00/unit",
+        "d3.rows[0].rate": "293.00/$1"
+      }
+    },
+    {
+      "item": "rest_pay",
+      "amount": "20.00",
+      "citation": "LC \u00a7226.2(a)(3)",
+      "arithmetic": "0.5h \u00d7 $40.00/h (weekly-average rate, above minimum wage)",
+      "sources": [
+        "d2.rest_hours"
+      ],
+      "dollar_sensitivity": {
+        "d2.rest_hours": "40.00/h"
+      }
+    }
+  ],
+  "total_owed": "320.00",
+  "amount_paid": "300.00",
+  "shortfall": "20.00",
+  "claim_value": {
+    "liquidated_damages": "20.00",
+    "interest": "2.00",
+    "citation": "LC \u00a71194.2, \u00a798.1"
+  },
+  "lower_bound": false,
+  "missing_days": [],
+  "disclaimer": "__localized__",
+  "chain_hash": null,
+  "residual_error": "< 0.5%"
+}

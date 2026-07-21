@@ -1,0 +1,25 @@
+{
+  "date": "2026-07-19",
+  "model": "mock (WS-C not yet landed)",
+  "n": 500,
+  "field_exact_match": 0.962,
+  "conclusion_critical_rate": 0.031,
+  "escaped_rate": 0.008,
+  "dollar_weighted_escaped": "0.42",
+  "flag_rate": 0.14,
+  "per_severity": {
+    "clean":       {"exact": 0.995, "critical": 0.004},
+    "smudge_s1":   {"exact": 0.981, "critical": 0.012},
+    "smudge_s2":   {"exact": 0.944, "critical": 0.038},
+    "sun_glare":   {"exact": 0.958, "critical": 0.021},
+    "skew":        {"exact": 0.973, "critical": 0.010},
+    "pencil_fade": {"exact": 0.921, "critical": 0.052},
+    "motion_blur": {"exact": 0.902, "critical": 0.061}
+  },
+  "calibration": [
+    {"agreement": "3/3 unanimous", "empirical_accuracy": 0.994},
+    {"agreement": "2/3 majority",  "empirical_accuracy": 0.86},
+    {"agreement": "no majority",   "empirical_accuracy": 0.41}
+  ],
+  "latency": {"s_per_ticket": 3.8, "tokens_per_s": 41.2, "peak_mem_gb": 5.6}
+}

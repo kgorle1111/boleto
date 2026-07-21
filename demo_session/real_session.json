@@ -1,0 +1,766 @@
+{
+  "session_id": "6acc2301f4d7",
+  "period_start": "2026-07-10",
+  "period_end": "2026-07-14",
+  "tickets": [
+    {
+      "image": "sha256/92acc749bf6179ec.png",
+      "date": "2026-07-10",
+      "quality": {
+        "blur": 1.0,
+        "verdict": "ok",
+        "reason": null
+      },
+      "fields": [
+        {
+          "field": "d1.worker_id",
+          "value": "",
+          "reads": [
+            "",
+            ""
+          ],
+          "unanimous": true,
+          "flagged": true,
+          "flag_reason": "schema:bad_string",
+          "crop_image": "sha256/b7489bb0ba93547f.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d1.date",
+          "value": "2026-07-10",
+          "reads": [
+            "2026-07-10",
+            "2026-07-10"
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/b7489bb0ba93547f.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d1.rows[0].crop",
+          "value": "strawberry",
+          "reads": [
+            "strawberry",
+            "strawberry"
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/6d0f5773746ffe6d.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d1.rows[0].units",
+          "value": 26,
+          "reads": [
+            26,
+            26
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/79b3a1fbe61ee409.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d1.rows[0].rate",
+          "value": 2.25,
+          "reads": [
+            2.25,
+            2.25
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/57087531736fedc5.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d1.rows[1].crop",
+          "value": "strawberry",
+          "reads": [
+            "strawberry",
+            "strawberry"
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/c7443c84a7eab993.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d1.rows[1].units",
+          "value": 77,
+          "reads": [
+            77,
+            77
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/a23cd20803fd0cca.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d1.rows[1].rate",
+          "value": 2.0,
+          "reads": [
+            2.0,
+            2.0
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/57087531736fedc5.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d1.rows[2].crop",
+          "value": "blackberry",
+          "reads": [
+            "blackberry",
+            "blackberry"
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/088a0e65c615e964.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d1.rows[2].units",
+          "value": 46,
+          "reads": [
+            46,
+            46
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/a42ac71b9db9ebb8.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d1.rows[2].rate",
+          "value": 1.75,
+          "reads": [
+            1.75,
+            1.75
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/57087531736fedc5.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d1.productive_hours",
+          "value": 9,
+          "reads": [
+            9,
+            9
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/a0fd9209fdfc4342.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d1.nonproductive_hours",
+          "value": 1,
+          "reads": [
+            1,
+            1
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/671fc941ae4daf6b.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d1.rest_hours",
+          "value": 0,
+          "reads": [
+            0,
+            0
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/6806cfc2290e3b60.png",
+          "prompt_version": "ticket_whole@1"
+        }
+      ],
+      "dedup_group": null
+    },
+    {
+      "image": "sha256/012ac88e4d9a0890.png",
+      "date": "2026-07-11",
+      "quality": {
+        "blur": 1.0,
+        "verdict": "ok",
+        "reason": null
+      },
+      "fields": [
+        {
+          "field": "d2.worker_id",
+          "value": "",
+          "reads": [
+            "",
+            ""
+          ],
+          "unanimous": true,
+          "flagged": true,
+          "flag_reason": "schema:bad_string",
+          "crop_image": "sha256/35abbfe03c6d43a9.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d2.date",
+          "value": "2026-07-11",
+          "reads": [
+            "2026-07-11",
+            "2026-07-11"
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/35abbfe03c6d43a9.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d2.rows[0].crop",
+          "value": "strawberry",
+          "reads": [
+            "strawberry",
+            "strawberry"
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/774c8952039ac94e.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d2.rows[0].units",
+          "value": 75,
+          "reads": [
+            75,
+            75
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/a23cd20803fd0cca.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d2.rows[0].rate",
+          "value": 2.0,
+          "reads": [
+            2.0,
+            2.0
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/57087531736fedc5.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d2.productive_hours",
+          "value": 9,
+          "reads": [
+            9,
+            9
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/6b5c424a6d81f297.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d2.nonproductive_hours",
+          "value": 0,
+          "reads": [
+            0,
+            0
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/c3cf99f62406ad00.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d2.rest_hours",
+          "value": 0.5,
+          "reads": [
+            0.5,
+            0.5
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/c3cf99f62406ad00.png",
+          "prompt_version": "ticket_whole@1"
+        }
+      ],
+      "dedup_group": null
+    },
+    {
+      "image": "sha256/229192d94020c9b3.png",
+      "date": "2026-07-12",
+      "quality": {
+        "blur": 1.0,
+        "verdict": "ok",
+        "reason": null
+      },
+      "fields": [
+        {
+          "field": "d3.worker_id",
+          "value": "W102",
+          "reads": [
+            "W102",
+            "W102"
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/a5cbb8bc13ba50a8.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d3.date",
+          "value": "2026-07-12",
+          "reads": [
+            "2026-07-12",
+            "2026-07-12"
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/a5cbb8bc13ba50a8.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d3.rows[0].crop",
+          "value": "blackberry",
+          "reads": [
+            "blackberry",
+            "blackberry"
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/ac92ac57c4610df0.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d3.rows[0].units",
+          "value": 159,
+          "reads": [
+            159,
+            159
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/e1d0eb4dcdac09fc.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d3.rows[0].rate",
+          "value": 2.5,
+          "reads": [
+            2.5,
+            2.5
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/57087531736fedc5.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d3.productive_hours",
+          "value": 7,
+          "reads": [
+            7,
+            7
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/6ddbc6d476404b64.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d3.nonproductive_hours",
+          "value": 1,
+          "reads": [
+            1,
+            1
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/7600864aa8bef271.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d3.rest_hours",
+          "value": 0.5,
+          "reads": [
+            0.5,
+            0.5
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/8b3196449347a62f.png",
+          "prompt_version": "ticket_whole@1"
+        }
+      ],
+      "dedup_group": null
+    },
+    {
+      "image": "sha256/b49ecfec99cf8fcc.png",
+      "date": "2026-07-13",
+      "quality": {
+        "blur": 1.0,
+        "verdict": "ok",
+        "reason": null
+      },
+      "fields": [
+        {
+          "field": "d4.worker_id",
+          "value": "",
+          "reads": [
+            "",
+            ""
+          ],
+          "unanimous": true,
+          "flagged": true,
+          "flag_reason": "schema:bad_string",
+          "crop_image": "sha256/09f42bf6d52af1f4.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d4.date",
+          "value": "2026-07-13",
+          "reads": [
+            "2026-07-13",
+            "2026-07-13"
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/09f42bf6d52af1f4.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d4.rows[0].crop",
+          "value": "strawberry",
+          "reads": [
+            "strawberry",
+            "strawberry"
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/fe6c61bd24e0075c.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d4.rows[0].units",
+          "value": 60,
+          "reads": [
+            60,
+            60
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/6961d6b34767f133.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d4.rows[0].rate",
+          "value": 2.5,
+          "reads": [
+            2.5,
+            2.5
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/57087531736fedc5.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d4.rows[1].crop",
+          "value": "raspberry",
+          "reads": [
+            "raspberry",
+            "raspberry"
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/2b32cc0b81022a8b.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d4.rows[1].units",
+          "value": 91,
+          "reads": [
+            91,
+            91
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/5a2040efe312de0c.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d4.rows[1].rate",
+          "value": 2.0,
+          "reads": [
+            2.0,
+            2.0
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/57087531736fedc5.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d4.productive_hours",
+          "value": 7,
+          "reads": [
+            7,
+            7
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/679eb9eea396ce50.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d4.nonproductive_hours",
+          "value": 0.5,
+          "reads": [
+            0.5,
+            0.5
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/35c7ebafb541d49c.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d4.rest_hours",
+          "value": 0,
+          "reads": [
+            0,
+            0
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/c3cf99f62406ad00.png",
+          "prompt_version": "ticket_whole@1"
+        }
+      ],
+      "dedup_group": null
+    },
+    {
+      "image": "sha256/ae41bbb60c2bf9d9.png",
+      "date": "2026-07-14",
+      "quality": {
+        "blur": 1.0,
+        "verdict": "ok",
+        "reason": null
+      },
+      "fields": [
+        {
+          "field": "d5.worker_id",
+          "value": "",
+          "reads": [
+            "",
+            ""
+          ],
+          "unanimous": true,
+          "flagged": true,
+          "flag_reason": "schema:bad_string",
+          "crop_image": "sha256/6dc5f8da60e5ea95.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d5.date",
+          "value": "2026-07-14",
+          "reads": [
+            "2026-07-14",
+            "2026-07-14"
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/6dc5f8da60e5ea95.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d5.rows[0].crop",
+          "value": "raspberry",
+          "reads": [
+            "raspberry",
+            "raspberry"
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/81be65cf23cfa772.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d5.rows[0].units",
+          "value": 44,
+          "reads": [
+            44,
+            44
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/793ee5bb54b1721b.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d5.rows[0].rate",
+          "value": 2.25,
+          "reads": [
+            2.25,
+            2.25
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/57087531736fedc5.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d5.productive_hours",
+          "value": 7.5,
+          "reads": [
+            7.5,
+            7.5
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/f4cdda1850a1fd69.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d5.nonproductive_hours",
+          "value": 0.5,
+          "reads": [
+            0.5,
+            0.5
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/c3cf99f62406ad00.png",
+          "prompt_version": "ticket_whole@1"
+        },
+        {
+          "field": "d5.rest_hours",
+          "value": 0,
+          "reads": [
+            0,
+            0
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/c3cf99f62406ad00.png",
+          "prompt_version": "ticket_whole@1"
+        }
+      ],
+      "dedup_group": null
+    }
+  ],
+  "stub": {
+    "fields": [
+      {
+        "field": "stub.amount_paid",
+        "value": "1000.00",
+        "reads": [
+          "1000.00"
+        ],
+        "unanimous": true,
+        "flagged": false,
+        "flag_reason": null,
+        "crop_image": null,
+        "prompt_version": "paystub@1"
+      },
+      {
+        "field": "stub.piece_total",
+        "value": 1271.5,
+        "reads": [
+          1271.5
+        ],
+        "unanimous": true,
+        "flagged": false,
+        "flag_reason": null,
+        "crop_image": null,
+        "prompt_version": "paystub@1"
+      },
+      {
+        "field": "stub.period_start",
+        "value": "2026-07-10",
+        "reads": [
+          "2026-07-10"
+        ],
+        "unanimous": true,
+        "flagged": false,
+        "flag_reason": null,
+        "crop_image": null,
+        "prompt_version": "paystub@1"
+      },
+      {
+        "field": "stub.period_end",
+        "value": "2026-07-14",
+        "reads": [
+          "2026-07-14"
+        ],
+        "unanimous": true,
+        "flagged": false,
+        "flag_reason": null,
+        "crop_image": null,
+        "prompt_version": "paystub@1"
+      }
+    ]
+  },
+  "reconciliation": {
+    "status": "ok",
+    "flags": [
+      {
+        "type": "non_independent_witness",
+        "detail": "stub piece_total synthesized from ticket sums (no real paystub OCR); two-witness check is not counted in the residual-error budget"
+      }
+    ]
+  },
+  "missing_days": []
+}

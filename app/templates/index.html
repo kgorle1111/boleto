@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Boleto</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <!-- Language slide switch — pinned to the top of EVERY screen (§4). Labels ARE the affordance. -->
+  <header id="topbar">
+    <button id="backbtn" class="iconbtn" aria-label="back" hidden>‹</button>
+    <div id="brand">Boleto</div>
+    <button id="langswitch" class="langswitch" role="switch" aria-checked="false">
+      <span class="opt opt-es">Español</span>
+      <span class="knob"></span>
+      <span class="opt opt-en">English</span>
+    </button>
+  </header>
+
+  <main id="app" aria-live="polite"></main>
+
+  <nav id="tabbar">
+    <button data-screen="capture" class="tab">🧾<span></span></button>
+    <button data-screen="history" class="tab">📂<span></span></button>
+    <button data-screen="evals"   class="tab">🎯<span></span></button>
+    <button data-screen="trust"   class="tab">🔒<span></span></button>
+  </nav>
+
+  <audio id="tts" hidden></audio>
+  <script src="/static/app.js"></script>
+</body>
+</html>

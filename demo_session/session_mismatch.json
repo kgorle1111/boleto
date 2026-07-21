@@ -1,0 +1,434 @@
+{
+  "session_id": "demo-mismatch",
+  "period_start": "2026-07-06",
+  "period_end": "2026-07-12",
+  "tickets": [
+    {
+      "image": "local/day_01.png",
+      "date": "2026-07-06",
+      "quality": {
+        "blur": 0.88,
+        "verdict": "ok",
+        "reason": null
+      },
+      "fields": [
+        {
+          "field": "d1.date",
+          "value": "2026-07-06",
+          "reads": [
+            "2026-07-06",
+            "2026-07-06"
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": null,
+          "prompt_version": "ticket_field@1"
+        },
+        {
+          "field": "d1.rows[0].units",
+          "value": 212,
+          "reads": [
+            212,
+            212
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": null,
+          "prompt_version": "ticket_field@1"
+        },
+        {
+          "field": "d1.rows[0].rate",
+          "value": 2.25,
+          "reads": [
+            2.25,
+            2.25
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": null,
+          "prompt_version": "ticket_field@1"
+        },
+        {
+          "field": "d1.productive_hours",
+          "value": 8,
+          "reads": [
+            8,
+            8
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": null,
+          "prompt_version": "ticket_field@1"
+        },
+        {
+          "field": "d1.rest_hours",
+          "value": 0.5,
+          "reads": [
+            0.5,
+            0.5
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": null,
+          "prompt_version": "ticket_field@1"
+        }
+      ],
+      "dedup_group": null
+    },
+    {
+      "image": "local/day_02.png",
+      "date": "2026-07-07",
+      "quality": {
+        "blur": 0.88,
+        "verdict": "ok",
+        "reason": null
+      },
+      "fields": [
+        {
+          "field": "d2.date",
+          "value": "2026-07-07",
+          "reads": [
+            "2026-07-07",
+            "2026-07-07"
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": null,
+          "prompt_version": "ticket_field@1"
+        },
+        {
+          "field": "d2.rows[0].units",
+          "value": 180,
+          "reads": [
+            180,
+            180
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": null,
+          "prompt_version": "ticket_field@1"
+        },
+        {
+          "field": "d2.rows[0].rate",
+          "value": 2.25,
+          "reads": [
+            2.25,
+            2.25
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": null,
+          "prompt_version": "ticket_field@1"
+        },
+        {
+          "field": "d2.productive_hours",
+          "value": 8,
+          "reads": [
+            8,
+            8
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": null,
+          "prompt_version": "ticket_field@1"
+        },
+        {
+          "field": "d2.rest_hours",
+          "value": 0.5,
+          "reads": [
+            0.5,
+            0.5
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/a97e9a6217c83ca0d9025710158f530b65e373f718b7af71a83ac216c394519f.png",
+          "prompt_version": "ticket_field@1"
+        }
+      ],
+      "dedup_group": null
+    },
+    {
+      "image": "local/day_03.png",
+      "date": "2026-07-08",
+      "quality": {
+        "blur": 0.88,
+        "verdict": "ok",
+        "reason": null
+      },
+      "fields": [
+        {
+          "field": "d3.date",
+          "value": "2026-07-08",
+          "reads": [
+            "2026-07-08",
+            "2026-07-08"
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": null,
+          "prompt_version": "ticket_field@1"
+        },
+        {
+          "field": "d3.rows[0].units",
+          "value": 293,
+          "reads": [
+            293,
+            293
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/478be25dc0a906a1013fa3589a564d886b1d52f37f54d33b64a5a50ffa02c596.png",
+          "prompt_version": "ticket_field@1"
+        },
+        {
+          "field": "d3.rows[0].rate",
+          "value": 2.0,
+          "reads": [
+            2.0,
+            2.0
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": "sha256/7efc5c4e6c6e8265d3e518d623dafa5b719399bd696dc4f1f763bc1a352fb59f.png",
+          "prompt_version": "ticket_field@1"
+        },
+        {
+          "field": "d3.productive_hours",
+          "value": 7,
+          "reads": [
+            7,
+            7
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": null,
+          "prompt_version": "ticket_field@1"
+        },
+        {
+          "field": "d3.rest_hours",
+          "value": 0.5,
+          "reads": [
+            0.5,
+            0.5
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": null,
+          "prompt_version": "ticket_field@1"
+        }
+      ],
+      "dedup_group": null
+    },
+    {
+      "image": "local/day_04.png",
+      "date": "2026-07-09",
+      "quality": {
+        "blur": 0.88,
+        "verdict": "ok",
+        "reason": null
+      },
+      "fields": [
+        {
+          "field": "d4.date",
+          "value": "2026-07-09",
+          "reads": [
+            "2026-07-09",
+            "2026-07-09"
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": null,
+          "prompt_version": "ticket_field@1"
+        },
+        {
+          "field": "d4.rows[0].units",
+          "value": 240,
+          "reads": [
+            240,
+            240
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": null,
+          "prompt_version": "ticket_field@1"
+        },
+        {
+          "field": "d4.rows[0].rate",
+          "value": 2.5,
+          "reads": [
+            2.5,
+            2.5
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": null,
+          "prompt_version": "ticket_field@1"
+        },
+        {
+          "field": "d4.productive_hours",
+          "value": 8,
+          "reads": [
+            8,
+            8
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": null,
+          "prompt_version": "ticket_field@1"
+        },
+        {
+          "field": "d4.rest_hours",
+          "value": 0.5,
+          "reads": [
+            0.5,
+            0.5
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": null,
+          "prompt_version": "ticket_field@1"
+        }
+      ],
+      "dedup_group": null
+    },
+    {
+      "image": "local/day_05.png",
+      "date": "2026-07-10",
+      "quality": {
+        "blur": 0.88,
+        "verdict": "ok",
+        "reason": null
+      },
+      "fields": [
+        {
+          "field": "d5.date",
+          "value": "2026-07-10",
+          "reads": [
+            "2026-07-10",
+            "2026-07-10"
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": null,
+          "prompt_version": "ticket_field@1"
+        },
+        {
+          "field": "d5.rows[0].units",
+          "value": 205,
+          "reads": [
+            205,
+            205
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": null,
+          "prompt_version": "ticket_field@1"
+        },
+        {
+          "field": "d5.rows[0].rate",
+          "value": 2.25,
+          "reads": [
+            2.25,
+            2.25
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": null,
+          "prompt_version": "ticket_field@1"
+        },
+        {
+          "field": "d5.productive_hours",
+          "value": 6,
+          "reads": [
+            6,
+            6
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": null,
+          "prompt_version": "ticket_field@1"
+        },
+        {
+          "field": "d5.rest_hours",
+          "value": 0.5,
+          "reads": [
+            0.5,
+            0.5
+          ],
+          "unanimous": true,
+          "flagged": false,
+          "flag_reason": null,
+          "crop_image": null,
+          "prompt_version": "ticket_field@1"
+        }
+      ],
+      "dedup_group": null
+    }
+  ],
+  "stub": {
+    "fields": [
+      {
+        "field": "stub.gross_pay",
+        "value": "300.00",
+        "reads": [
+          "300.00",
+          "300.00"
+        ],
+        "unanimous": true,
+        "flagged": false,
+        "flag_reason": null,
+        "crop_image": null,
+        "prompt_version": "ticket_field@1"
+      },
+      {
+        "field": "stub.piece_total",
+        "value": 2666.25,
+        "reads": [
+          2666.25,
+          2666.25
+        ],
+        "unanimous": true,
+        "flagged": false,
+        "flag_reason": null,
+        "crop_image": null,
+        "prompt_version": "ticket_field@1"
+      }
+    ]
+  },
+  "reconciliation": {
+    "status": "mismatch",
+    "flags": [
+      {
+        "type": "amount_mismatch",
+        "detail": "ticket \u03a3 piece = 2529.25, stub piece line = 2666.25",
+        "ticket_total": 2529.25,
+        "stub_total": 2666.25
+      }
+    ]
+  },
+  "missing_days": []
+}
