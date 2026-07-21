@@ -1,0 +1,602 @@
+{
+  "report": {
+    "date": "2026-07-19",
+    "model": "mock",
+    "n": 400,
+    "field_exact_match": 0.951,
+    "conclusion_critical_rate": 0.482,
+    "escaped_rate": 0.072,
+    "dollar_weighted_escaped": "1355.0000",
+    "flag_rate": 0.807,
+    "per_severity": {
+      "clean": {
+        "0.0": {
+          "n": 80,
+          "field_exact_match": 1.0,
+          "conclusion_critical_rate": 0.062,
+          "escaped_rate": 0.037,
+          "dollar_escaped": "6.09"
+        }
+      },
+      "glare": {
+        "0.25": {
+          "n": 10,
+          "field_exact_match": 0.98,
+          "conclusion_critical_rate": 0.3,
+          "escaped_rate": 0.0,
+          "dollar_escaped": "0"
+        },
+        "0.5": {
+          "n": 10,
+          "field_exact_match": 0.98,
+          "conclusion_critical_rate": 0.3,
+          "escaped_rate": 0.0,
+          "dollar_escaped": "0"
+        },
+        "0.75": {
+          "n": 10,
+          "field_exact_match": 0.94,
+          "conclusion_critical_rate": 0.6,
+          "escaped_rate": 0.1,
+          "dollar_escaped": "2.5"
+        },
+        "1.0": {
+          "n": 10,
+          "field_exact_match": 0.84,
+          "conclusion_critical_rate": 0.8,
+          "escaped_rate": 0.4,
+          "dollar_escaped": "35.200"
+        }
+      },
+      "lowlight": {
+        "0.25": {
+          "n": 10,
+          "field_exact_match": 0.98,
+          "conclusion_critical_rate": 0.2,
+          "escaped_rate": 0.1,
+          "dollar_escaped": "16.00"
+        },
+        "0.5": {
+          "n": 10,
+          "field_exact_match": 0.96,
+          "conclusion_critical_rate": 0.5,
+          "escaped_rate": 0.1,
+          "dollar_escaped": "16.00"
+        },
+        "0.75": {
+          "n": 10,
+          "field_exact_match": 0.98,
+          "conclusion_critical_rate": 0.5,
+          "escaped_rate": 0.0,
+          "dollar_escaped": "0"
+        },
+        "1.0": {
+          "n": 10,
+          "field_exact_match": 0.82,
+          "conclusion_critical_rate": 1.0,
+          "escaped_rate": 0.2,
+          "dollar_escaped": "288.00"
+        }
+      },
+      "motion": {
+        "0.25": {
+          "n": 10,
+          "field_exact_match": 0.98,
+          "conclusion_critical_rate": 0.3,
+          "escaped_rate": 0.1,
+          "dollar_escaped": "14.0"
+        },
+        "0.5": {
+          "n": 10,
+          "field_exact_match": 0.94,
+          "conclusion_critical_rate": 0.5,
+          "escaped_rate": 0.2,
+          "dollar_escaped": "160.00"
+        },
+        "0.75": {
+          "n": 10,
+          "field_exact_match": 0.96,
+          "conclusion_critical_rate": 0.8,
+          "escaped_rate": 0.0,
+          "dollar_escaped": "0"
+        },
+        "1.0": {
+          "n": 10,
+          "field_exact_match": 0.92,
+          "conclusion_critical_rate": 0.9,
+          "escaped_rate": 0.1,
+          "dollar_escaped": "144.00"
+        }
+      },
+      "pencilfade": {
+        "0.25": {
+          "n": 10,
+          "field_exact_match": 0.98,
+          "conclusion_critical_rate": 0.3,
+          "escaped_rate": 0.0,
+          "dollar_escaped": "0"
+        },
+        "0.5": {
+          "n": 10,
+          "field_exact_match": 0.96,
+          "conclusion_critical_rate": 0.4,
+          "escaped_rate": 0.0,
+          "dollar_escaped": "0"
+        },
+        "0.75": {
+          "n": 10,
+          "field_exact_match": 0.92,
+          "conclusion_critical_rate": 0.7,
+          "escaped_rate": 0.1,
+          "dollar_escaped": "16.00"
+        },
+        "1.0": {
+          "n": 10,
+          "field_exact_match": 0.88,
+          "conclusion_critical_rate": 0.8,
+          "escaped_rate": 0.2,
+          "dollar_escaped": "18.00"
+        }
+      },
+      "shadow": {
+        "0.25": {
+          "n": 10,
+          "field_exact_match": 1.0,
+          "conclusion_critical_rate": 0.0,
+          "escaped_rate": 0.0,
+          "dollar_escaped": "0"
+        },
+        "0.5": {
+          "n": 10,
+          "field_exact_match": 0.94,
+          "conclusion_critical_rate": 0.6,
+          "escaped_rate": 0.1,
+          "dollar_escaped": "0.1600"
+        },
+        "0.75": {
+          "n": 10,
+          "field_exact_match": 0.86,
+          "conclusion_critical_rate": 0.9,
+          "escaped_rate": 0.0,
+          "dollar_escaped": "0"
+        },
+        "1.0": {
+          "n": 10,
+          "field_exact_match": 0.9,
+          "conclusion_critical_rate": 0.9,
+          "escaped_rate": 0.2,
+          "dollar_escaped": "145.6000"
+        }
+      },
+      "skew": {
+        "0.25": {
+          "n": 10,
+          "field_exact_match": 0.92,
+          "conclusion_critical_rate": 0.7,
+          "escaped_rate": 0.1,
+          "dollar_escaped": "0.1600"
+        },
+        "0.5": {
+          "n": 10,
+          "field_exact_match": 0.98,
+          "conclusion_critical_rate": 0.5,
+          "escaped_rate": 0.0,
+          "dollar_escaped": "0"
+        },
+        "0.75": {
+          "n": 10,
+          "field_exact_match": 0.98,
+          "conclusion_critical_rate": 0.3,
+          "escaped_rate": 0.0,
+          "dollar_escaped": "0"
+        },
+        "1.0": {
+          "n": 10,
+          "field_exact_match": 0.84,
+          "conclusion_critical_rate": 0.9,
+          "escaped_rate": 0.0,
+          "dollar_escaped": "0"
+        }
+      },
+      "smudge": {
+        "0.25": {
+          "n": 10,
+          "field_exact_match": 1.0,
+          "conclusion_critical_rate": 0.4,
+          "escaped_rate": 0.0,
+          "dollar_escaped": "0"
+        },
+        "0.5": {
+          "n": 10,
+          "field_exact_match": 0.92,
+          "conclusion_critical_rate": 0.7,
+          "escaped_rate": 0.1,
+          "dollar_escaped": "16.00"
+        },
+        "0.75": {
+          "n": 10,
+          "field_exact_match": 0.96,
+          "conclusion_critical_rate": 0.7,
+          "escaped_rate": 0.2,
+          "dollar_escaped": "29.29"
+        },
+        "1.0": {
+          "n": 10,
+          "field_exact_match": 0.92,
+          "conclusion_critical_rate": 0.7,
+          "escaped_rate": 0.0,
+          "dollar_escaped": "0"
+        }
+      },
+      "warp": {
+        "0.25": {
+          "n": 10,
+          "field_exact_match": 0.96,
+          "conclusion_critical_rate": 0.4,
+          "escaped_rate": 0.1,
+          "dollar_escaped": "160.00"
+        },
+        "0.5": {
+          "n": 10,
+          "field_exact_match": 0.92,
+          "conclusion_critical_rate": 0.9,
+          "escaped_rate": 0.1,
+          "dollar_escaped": "144.00"
+        },
+        "0.75": {
+          "n": 10,
+          "field_exact_match": 0.94,
+          "conclusion_critical_rate": 0.5,
+          "escaped_rate": 0.1,
+          "dollar_escaped": "144.00"
+        },
+        "1.0": {
+          "n": 10,
+          "field_exact_match": 0.96,
+          "conclusion_critical_rate": 0.8,
+          "escaped_rate": 0.0,
+          "dollar_escaped": "0"
+        }
+      }
+    },
+    "calibration": [
+      {
+        "vote_agreement": 0.333,
+        "n": 38,
+        "empirical_accuracy": 0.368
+      },
+      {
+        "vote_agreement": 0.5,
+        "n": 303,
+        "empirical_accuracy": 0.521
+      },
+      {
+        "vote_agreement": 0.667,
+        "n": 366,
+        "empirical_accuracy": 0.855
+      },
+      {
+        "vote_agreement": 1.0,
+        "n": 1693,
+        "empirical_accuracy": 0.982
+      }
+    ],
+    "latency": {
+      "s_per_ticket": 0.0,
+      "wall_seconds": 0.05,
+      "tokens_per_s": null,
+      "peak_mem_gb": 0.384,
+      "adaptive_reads": 1123,
+      "full_reads_would_be": 1200,
+      "reads_saved_pct": 6.4
+    }
+  },
+  "full_score": {
+    "tickets": 400,
+    "field_exact_match": 0.951,
+    "conclusion_critical_rate": 0.482,
+    "critical_caught_by_gate": 164,
+    "critical_escaped_gate": 29,
+    "escaped_rate": 0.072,
+    "dollar_weighted_escaped": "1355.0000",
+    "flag_rate": 0.807,
+    "per_corruption": {
+      "clean": {
+        "0.0": {
+          "n": 80,
+          "field_exact_match": 1.0,
+          "conclusion_critical_rate": 0.062,
+          "escaped_rate": 0.037,
+          "dollar_escaped": "6.09"
+        }
+      },
+      "glare": {
+        "0.25": {
+          "n": 10,
+          "field_exact_match": 0.98,
+          "conclusion_critical_rate": 0.3,
+          "escaped_rate": 0.0,
+          "dollar_escaped": "0"
+        },
+        "0.5": {
+          "n": 10,
+          "field_exact_match": 0.98,
+          "conclusion_critical_rate": 0.3,
+          "escaped_rate": 0.0,
+          "dollar_escaped": "0"
+        },
+        "0.75": {
+          "n": 10,
+          "field_exact_match": 0.94,
+          "conclusion_critical_rate": 0.6,
+          "escaped_rate": 0.1,
+          "dollar_escaped": "2.5"
+        },
+        "1.0": {
+          "n": 10,
+          "field_exact_match": 0.84,
+          "conclusion_critical_rate": 0.8,
+          "escaped_rate": 0.4,
+          "dollar_escaped": "35.200"
+        }
+      },
+      "lowlight": {
+        "0.25": {
+          "n": 10,
+          "field_exact_match": 0.98,
+          "conclusion_critical_rate": 0.2,
+          "escaped_rate": 0.1,
+          "dollar_escaped": "16.00"
+        },
+        "0.5": {
+          "n": 10,
+          "field_exact_match": 0.96,
+          "conclusion_critical_rate": 0.5,
+          "escaped_rate": 0.1,
+          "dollar_escaped": "16.00"
+        },
+        "0.75": {
+          "n": 10,
+          "field_exact_match": 0.98,
+          "conclusion_critical_rate": 0.5,
+          "escaped_rate": 0.0,
+          "dollar_escaped": "0"
+        },
+        "1.0": {
+          "n": 10,
+          "field_exact_match": 0.82,
+          "conclusion_critical_rate": 1.0,
+          "escaped_rate": 0.2,
+          "dollar_escaped": "288.00"
+        }
+      },
+      "motion": {
+        "0.25": {
+          "n": 10,
+          "field_exact_match": 0.98,
+          "conclusion_critical_rate": 0.3,
+          "escaped_rate": 0.1,
+          "dollar_escaped": "14.0"
+        },
+        "0.5": {
+          "n": 10,
+          "field_exact_match": 0.94,
+          "conclusion_critical_rate": 0.5,
+          "escaped_rate": 0.2,
+          "dollar_escaped": "160.00"
+        },
+        "0.75": {
+          "n": 10,
+          "field_exact_match": 0.96,
+          "conclusion_critical_rate": 0.8,
+          "escaped_rate": 0.0,
+          "dollar_escaped": "0"
+        },
+        "1.0": {
+          "n": 10,
+          "field_exact_match": 0.92,
+          "conclusion_critical_rate": 0.9,
+          "escaped_rate": 0.1,
+          "dollar_escaped": "144.00"
+        }
+      },
+      "pencilfade": {
+        "0.25": {
+          "n": 10,
+          "field_exact_match": 0.98,
+          "conclusion_critical_rate": 0.3,
+          "escaped_rate": 0.0,
+          "dollar_escaped": "0"
+        },
+        "0.5": {
+          "n": 10,
+          "field_exact_match": 0.96,
+          "conclusion_critical_rate": 0.4,
+          "escaped_rate": 0.0,
+          "dollar_escaped": "0"
+        },
+        "0.75": {
+          "n": 10,
+          "field_exact_match": 0.92,
+          "conclusion_critical_rate": 0.7,
+          "escaped_rate": 0.1,
+          "dollar_escaped": "16.00"
+        },
+        "1.0": {
+          "n": 10,
+          "field_exact_match": 0.88,
+          "conclusion_critical_rate": 0.8,
+          "escaped_rate": 0.2,
+          "dollar_escaped": "18.00"
+        }
+      },
+      "shadow": {
+        "0.25": {
+          "n": 10,
+          "field_exact_match": 1.0,
+          "conclusion_critical_rate": 0.0,
+          "escaped_rate": 0.0,
+          "dollar_escaped": "0"
+        },
+        "0.5": {
+          "n": 10,
+          "field_exact_match": 0.94,
+          "conclusion_critical_rate": 0.6,
+          "escaped_rate": 0.1,
+          "dollar_escaped": "0.1600"
+        },
+        "0.75": {
+          "n": 10,
+          "field_exact_match": 0.86,
+          "conclusion_critical_rate": 0.9,
+          "escaped_rate": 0.0,
+          "dollar_escaped": "0"
+        },
+        "1.0": {
+          "n": 10,
+          "field_exact_match": 0.9,
+          "conclusion_critical_rate": 0.9,
+          "escaped_rate": 0.2,
+          "dollar_escaped": "145.6000"
+        }
+      },
+      "skew": {
+        "0.25": {
+          "n": 10,
+          "field_exact_match": 0.92,
+          "conclusion_critical_rate": 0.7,
+          "escaped_rate": 0.1,
+          "dollar_escaped": "0.1600"
+        },
+        "0.5": {
+          "n": 10,
+          "field_exact_match": 0.98,
+          "conclusion_critical_rate": 0.5,
+          "escaped_rate": 0.0,
+          "dollar_escaped": "0"
+        },
+        "0.75": {
+          "n": 10,
+          "field_exact_match": 0.98,
+          "conclusion_critical_rate": 0.3,
+          "escaped_rate": 0.0,
+          "dollar_escaped": "0"
+        },
+        "1.0": {
+          "n": 10,
+          "field_exact_match": 0.84,
+          "conclusion_critical_rate": 0.9,
+          "escaped_rate": 0.0,
+          "dollar_escaped": "0"
+        }
+      },
+      "smudge": {
+        "0.25": {
+          "n": 10,
+          "field_exact_match": 1.0,
+          "conclusion_critical_rate": 0.4,
+          "escaped_rate": 0.0,
+          "dollar_escaped": "0"
+        },
+        "0.5": {
+          "n": 10,
+          "field_exact_match": 0.92,
+          "conclusion_critical_rate": 0.7,
+          "escaped_rate": 0.1,
+          "dollar_escaped": "16.00"
+        },
+        "0.75": {
+          "n": 10,
+          "field_exact_match": 0.96,
+          "conclusion_critical_rate": 0.7,
+          "escaped_rate": 0.2,
+          "dollar_escaped": "29.29"
+        },
+        "1.0": {
+          "n": 10,
+          "field_exact_match": 0.92,
+          "conclusion_critical_rate": 0.7,
+          "escaped_rate": 0.0,
+          "dollar_escaped": "0"
+        }
+      },
+      "warp": {
+        "0.25": {
+          "n": 10,
+          "field_exact_match": 0.96,
+          "conclusion_critical_rate": 0.4,
+          "escaped_rate": 0.1,
+          "dollar_escaped": "160.00"
+        },
+        "0.5": {
+          "n": 10,
+          "field_exact_match": 0.92,
+          "conclusion_critical_rate": 0.9,
+          "escaped_rate": 0.1,
+          "dollar_escaped": "144.00"
+        },
+        "0.75": {
+          "n": 10,
+          "field_exact_match": 0.94,
+          "conclusion_critical_rate": 0.5,
+          "escaped_rate": 0.1,
+          "dollar_escaped": "144.00"
+        },
+        "1.0": {
+          "n": 10,
+          "field_exact_match": 0.96,
+          "conclusion_critical_rate": 0.8,
+          "escaped_rate": 0.0,
+          "dollar_escaped": "0"
+        }
+      }
+    },
+    "verdict_hint": "SHIP-CANDIDATE if escaped_rate<=0.05; NEEDS-WORK otherwise"
+  },
+  "calibration": {
+    "table": [
+      {
+        "vote_agreement": 0.333,
+        "n": 38,
+        "empirical_accuracy": 0.368
+      },
+      {
+        "vote_agreement": 0.5,
+        "n": 303,
+        "empirical_accuracy": 0.521
+      },
+      {
+        "vote_agreement": 0.667,
+        "n": 366,
+        "empirical_accuracy": 0.855
+      },
+      {
+        "vote_agreement": 1.0,
+        "n": 1693,
+        "empirical_accuracy": 0.982
+      }
+    ],
+    "unanimous_precision": 0.982,
+    "nonunanimous_precision": 0.686,
+    "chosen_threshold": "route to review when vote_agreement < 1.0 (non-unanimous)",
+    "threshold_justification": "unanimous reads measured 0.982 precision; non-unanimous 0.686 \u2014 so non-unanimous fields route to a human."
+  },
+  "quant_study": {
+    "status": "single-quant environment \u2014 comparison not run",
+    "instruction": "pull a second quant and rerun, e.g.:\n    ollama pull gemma3:4b-it-q4_K_M\n    BOLETO_MODEL=gemma3:4b-it-q4_K_M .venv-gemma/bin/python -m evals.run_eval --source synthetic --n 60\n    BOLETO_MODEL=gemma3:latest .venv-gemma/bin/python -m evals.run_eval --source synthetic --n 60\nthen diff the two dated JSONs in evals/results/ on field_exact_match, s_per_ticket, peak_mem_gb",
+    "table": [
+      {
+        "quant": "8bit",
+        "field_exact_match": null,
+        "s_per_ticket": null,
+        "peak_mem_gb": null
+      },
+      {
+        "quant": "4bit",
+        "field_exact_match": null,
+        "s_per_ticket": null,
+        "peak_mem_gb": null
+      }
+    ]
+  }
+}

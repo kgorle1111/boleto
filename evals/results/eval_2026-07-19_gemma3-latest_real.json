@@ -1,0 +1,102 @@
+{
+  "report": {
+    "date": "2026-07-19",
+    "model": "gemma3:latest",
+    "n": 8,
+    "field_exact_match": 0.975,
+    "conclusion_critical_rate": 0.0,
+    "escaped_rate": 0.0,
+    "dollar_weighted_escaped": "0",
+    "flag_rate": 0.0,
+    "per_severity": {
+      "clean": {
+        "0.0": {
+          "n": 8,
+          "field_exact_match": 0.975,
+          "conclusion_critical_rate": 0.0,
+          "escaped_rate": 0.0,
+          "dollar_escaped": "0"
+        }
+      }
+    },
+    "calibration": [
+      {
+        "vote_agreement": 0.667,
+        "n": 2,
+        "empirical_accuracy": 0.5
+      },
+      {
+        "vote_agreement": 1.0,
+        "n": 46,
+        "empirical_accuracy": 1.0
+      }
+    ],
+    "latency": {
+      "s_per_ticket": 3.938,
+      "wall_seconds": 31.5,
+      "tokens_per_s": null,
+      "peak_mem_gb": 0.048,
+      "adaptive_reads": 18,
+      "full_reads_would_be": 24,
+      "reads_saved_pct": 25.0
+    }
+  },
+  "full_score": {
+    "tickets": 8,
+    "field_exact_match": 0.975,
+    "conclusion_critical_rate": 0.0,
+    "critical_caught_by_gate": 0,
+    "critical_escaped_gate": 0,
+    "escaped_rate": 0.0,
+    "dollar_weighted_escaped": "0",
+    "flag_rate": 0.0,
+    "per_corruption": {
+      "clean": {
+        "0.0": {
+          "n": 8,
+          "field_exact_match": 0.975,
+          "conclusion_critical_rate": 0.0,
+          "escaped_rate": 0.0,
+          "dollar_escaped": "0"
+        }
+      }
+    },
+    "verdict_hint": "SHIP-CANDIDATE if escaped_rate<=0.05; NEEDS-WORK otherwise"
+  },
+  "calibration": {
+    "table": [
+      {
+        "vote_agreement": 0.667,
+        "n": 2,
+        "empirical_accuracy": 0.5
+      },
+      {
+        "vote_agreement": 1.0,
+        "n": 46,
+        "empirical_accuracy": 1.0
+      }
+    ],
+    "unanimous_precision": 1.0,
+    "nonunanimous_precision": 0.5,
+    "chosen_threshold": "route to review when vote_agreement < 1.0 (non-unanimous)",
+    "threshold_justification": "unanimous reads measured 1.0 precision; non-unanimous 0.5 \u2014 so non-unanimous fields route to a human."
+  },
+  "quant_study": {
+    "status": "single-quant environment \u2014 comparison not run",
+    "instruction": "pull a second quant and rerun, e.g.:\n    ollama pull gemma3:4b-it-q4_K_M\n    BOLETO_MODEL=gemma3:4b-it-q4_K_M .venv-gemma/bin/python -m evals.run_eval --source real --n 60\n    BOLETO_MODEL=gemma3:latest .venv-gemma/bin/python -m evals.run_eval --source real --n 60\nthen diff the two dated JSONs in evals/results/ on field_exact_match, s_per_ticket, peak_mem_gb",
+    "table": [
+      {
+        "quant": "8bit",
+        "field_exact_match": null,
+        "s_per_ticket": null,
+        "peak_mem_gb": null
+      },
+      {
+        "quant": "4bit",
+        "field_exact_match": null,
+        "s_per_ticket": null,
+        "peak_mem_gb": null
+      }
+    ]
+  }
+}

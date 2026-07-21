@@ -1,0 +1,18 @@
+ticket_whole@1
+---
+This is a farm piece-rate punch ticket (handwritten or printed). Extract STRICT JSON
+with EXACTLY these keys:
+  worker_id        (string)
+  date             (string, YYYY-MM-DD)
+  rows             (list of {crop: string, units: integer, rate: number})
+  productive_hours (number)
+  nonproductive_hours (number)
+  rest_hours       (number)
+
+Rules:
+- Numeric fields must be numbers, not strings. Money like $2.25 → 2.25.
+- If a field is absent or unreadable, use 0 (numbers) or "" (strings). Do NOT guess a digit.
+- Output JSON only. No prose, no code fence.
+
+kn: whole-ticket read for the WS-C benchmark. WS-A ships a per-CROP flow using
+core/extraction/prompts/ticket_field.txt; at integration the eval measures THAT path.

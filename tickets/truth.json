@@ -1,0 +1,144 @@
+[
+  {
+    "worker_id": "W100",
+    "date": "2026-07-10",
+    "rows": [
+      {
+        "crop": "strawberry",
+        "units": 26,
+        "rate": 2.25
+      },
+      {
+        "crop": "strawberry",
+        "units": 77,
+        "rate": 2.0
+      },
+      {
+        "crop": "blackberry",
+        "units": 46,
+        "rate": 1.75
+      }
+    ],
+    "productive_hours": 9,
+    "nonproductive_hours": 1,
+    "rest_hours": 0
+  },
+  {
+    "worker_id": "W101",
+    "date": "2026-07-11",
+    "rows": [
+      {
+        "crop": "strawberry",
+        "units": 75,
+        "rate": 2.0
+      }
+    ],
+    "productive_hours": 9,
+    "nonproductive_hours": 0,
+    "rest_hours": 0.5
+  },
+  {
+    "worker_id": "W102",
+    "date": "2026-07-12",
+    "rows": [
+      {
+        "crop": "blackberry",
+        "units": 159,
+        "rate": 2.5
+      }
+    ],
+    "productive_hours": 7,
+    "nonproductive_hours": 1,
+    "rest_hours": 0.5
+  },
+  {
+    "worker_id": "W103",
+    "date": "2026-07-13",
+    "rows": [
+      {
+        "crop": "strawberry",
+        "units": 60,
+        "rate": 2.5
+      },
+      {
+        "crop": "raspberry",
+        "units": 91,
+        "rate": 2.0
+      }
+    ],
+    "productive_hours": 7,
+    "nonproductive_hours": 0.5,
+    "rest_hours": 0
+  },
+  {
+    "worker_id": "W104",
+    "date": "2026-07-14",
+    "rows": [
+      {
+        "crop": "raspberry",
+        "units": 44,
+        "rate": 2.25
+      }
+    ],
+    "productive_hours": 7.5,
+    "nonproductive_hours": 0.5,
+    "rest_hours": 0
+  },
+  {
+    "worker_id": "W105",
+    "date": "2026-07-15",
+    "rows": [
+      {
+        "crop": "raspberry",
+        "units": 157,
+        "rate": 1.75
+      },
+      {
+        "crop": "raspberry",
+        "units": 40,
+        "rate": 2.25
+      },
+      {
+        "crop": "blackberry",
+        "units": 178,
+        "rate": 2.25
+      }
+    ],
+    "productive_hours": 9,
+    "nonproductive_hours": 0,
+    "rest_hours": 0.5
+  },
+  {
+    "worker_id": "W106",
+    "date": "2026-07-16",
+    "rows": [
+      {
+        "crop": "strawberry",
+        "units": 78,
+        "rate": 2.25
+      }
+    ],
+    "productive_hours": 6,
+    "nonproductive_hours": 0,
+    "rest_hours": 0
+  },
+  {
+    "worker_id": "W107",
+    "date": "2026-07-17",
+    "rows": [
+      {
+        "crop": "raspberry",
+        "units": 136,
+        "rate": 2.25
+      },
+      {
+        "crop": "strawberry",
+        "units": 114,
+        "rate": 2.25
+      }
+    ],
+    "productive_hours": 7,
+    "nonproductive_hours": 0.5,
+    "rest_hours": 0.5
+  }
+]

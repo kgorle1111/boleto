@@ -1,0 +1,21 @@
+{
+  "model": "mlx",
+  "benchmark": "24 generator handwritten tickets (mixed hands + degradations, seed=11)",
+  "adaptive": false,
+  "rows": [
+    {
+      "k": 2,
+      "temperature": 0.2,
+      "n_tickets": 24,
+      "pay_value_exact": 0.7418,
+      "pay_values": "135/182",
+      "conclusion_critical_rate": 0.75,
+      "escaped_rate": 0.708,
+      "any_flag_ticket_rate": 0.25,
+      "pay_flag_ticket_rate": 0.042,
+      "model_calls": 48,
+      "s_per_ticket": 5.07,
+      "wall_s": 121.6
+    }
+  ]
+}
