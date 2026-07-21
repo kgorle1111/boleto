@@ -1,0 +1,12 @@
+{
+  "_comment_verify": "kn: VERIFY every value before any real use — this is §10.6 item 5 / global CLAUDE.md §8 item 6 (Kannishk-only). CA state minimum wage is CPI-indexed after 2023; the 2026 figure below is a best-estimate placeholder and is the LEAST certain. Local ordinances (e.g. many CA cities) are HIGHER than state and are NOT seeded here — add them under local_ordinances keyed by locality slug. The engine picks the higher of state vs local when a locality is supplied.",
+  "jurisdiction": "CA",
+  "source": "kn: confirm against dir.ca.gov (state) + the specific city/county ordinance each January",
+  "state_minimum_wage": [
+    { "effective": "2023-01-01", "amount": "15.50" },
+    { "effective": "2024-01-01", "amount": "16.00" },
+    { "effective": "2025-01-01", "amount": "16.50" },
+    { "effective": "2026-01-01", "amount": "16.90" }
+  ],
+  "local_ordinances": {}
+}

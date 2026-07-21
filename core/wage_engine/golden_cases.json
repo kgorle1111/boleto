@@ -1,0 +1,75 @@
+{
+  "_about": "Shared known-answer vectors. Every wage-engine port (Python ref, Kotlin, Rust) must reproduce these byte-for-byte on money values. reconstruct_cases run at the pure-arithmetic engine level (portable). session_cases run at the WS-B Python legal layer (audit_session) and are not required of the arithmetic ports.",
+  "minimum_wage": "16.00",
+  "reconstruct_cases": [
+    {
+      "name": "piece_only_8h",
+      "days": [{ "piece_earnings": "200", "productive_hours": "8" }],
+      "expect": { "total_owed": "200.00" }
+    },
+    {
+      "name": "rest_break_226_2_core",
+      "days": [{ "piece_earnings": "300", "productive_hours": "7.5", "rest_hours": "0.5" }],
+      "amount_paid": "300.00",
+      "expect": { "rest_pay": "20.00", "total_owed": "320.00", "shortfall": "20.00" }
+    },
+    {
+      "name": "nonproductive_time_at_mw",
+      "days": [{ "piece_earnings": "200", "productive_hours": "6", "nonproductive_hours": "2" }],
+      "expect": { "total_owed": "232.00" }
+    },
+    {
+      "name": "daily_overtime",
+      "days": [{ "piece_earnings": "250", "productive_hours": "10" }],
+      "expect": { "ot_hours": "2", "total_owed": "275.00" }
+    },
+    {
+      "name": "weekly_overtime_no_daily",
+      "days": [
+        { "piece_earnings": "140", "productive_hours": "7" },
+        { "piece_earnings": "140", "productive_hours": "7" },
+        { "piece_earnings": "140", "productive_hours": "7" },
+        { "piece_earnings": "140", "productive_hours": "7" },
+        { "piece_earnings": "140", "productive_hours": "7" },
+        { "piece_earnings": "140", "productive_hours": "7" }
+      ],
+      "expect": { "ot_hours": "2", "total_owed": "860.00" }
+    },
+    {
+      "name": "mw_makeup_plus_rest_floor",
+      "days": [{ "piece_earnings": "50", "productive_hours": "3.5", "rest_hours": "0.5" }],
+      "expect": { "mw_makeup": "6.00", "rest_pay": "8.00", "total_owed": "64.00" }
+    }
+  ],
+  "session_cases": [
+    {
+      "name": "complete_week_5day_underpaid",
+      "period_start": "2026-07-06",
+      "period_end": "2026-07-12",
+      "days": [
+        { "date": "2026-07-06", "rows": [{ "units": 150, "rate": "2.00" }], "productive_hours": "7.5", "rest_hours": "0.5" },
+        { "date": "2026-07-07", "rows": [{ "units": 160, "rate": "2.00" }], "productive_hours": "7.5", "rest_hours": "0.5" },
+        { "date": "2026-07-08", "rows": [{ "units": 140, "rate": "2.00" }], "productive_hours": "7.5", "rest_hours": "0.5" },
+        { "date": "2026-07-09", "rows": [{ "units": 20,  "rate": "2.00" }], "productive_hours": "7.5", "rest_hours": "0.5" },
+        { "date": "2026-07-10", "rows": [{ "units": 155, "rate": "2.00" }], "productive_hours": "7.5", "rest_hours": "0.5" }
+      ],
+      "amount_paid": "1000.00",
+      "missing_days": [],
+      "expect": { "lower_bound": false, "shortfall_positive": true }
+    },
+    {
+      "name": "incomplete_week_missing_one_day",
+      "period_start": "2026-07-06",
+      "period_end": "2026-07-12",
+      "days": [
+        { "date": "2026-07-06", "rows": [{ "units": 150, "rate": "2.00" }], "productive_hours": "7.5", "rest_hours": "0.5" },
+        { "date": "2026-07-07", "rows": [{ "units": 160, "rate": "2.00" }], "productive_hours": "7.5", "rest_hours": "0.5" },
+        { "date": "2026-07-08", "rows": [{ "units": 140, "rate": "2.00" }], "productive_hours": "7.5", "rest_hours": "0.5" },
+        { "date": "2026-07-10", "rows": [{ "units": 155, "rate": "2.00" }], "productive_hours": "7.5", "rest_hours": "0.5" }
+      ],
+      "amount_paid": "800.00",
+      "missing_days": ["2026-07-09"],
+      "expect": { "lower_bound": true, "missing_days": ["2026-07-09"] }
+    }
+  ]
+}
