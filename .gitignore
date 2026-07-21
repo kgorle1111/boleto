@@ -6,9 +6,9 @@
 boleto idea - 00.md
 project creation plan.md
 presentation-prep.md
-# Kept on purpose (evidence judges should see): README.md, SETUP.md,
-# tradeoffs.md, results/FINAL-REPORT.md, results/WS-*.md. Delete a line above
-# if you'd rather ship it, or add one below to hide more.
+# Kept on purpose (evidence judges should see): README.md, tradeoffs.md,
+# results/FINAL-REPORT.md, results/WS-*.md. Delete a line above if you'd
+# rather ship it, or add one below to hide more.
 
 # --- Model weights: the LoRA adapters (1.2 GB, >100MB/file → GitHub rejects) -
 # The LoRA negative-result STORY still ships via results/FINAL-REPORT.md and the
@@ -48,4 +48,5 @@ env/
 
 # submission form copy and LinkedIn marketing assets (kept local, not in the repo)
 DEVPOST.md
+SETUP.md
 assets/screenshots/linkedin/

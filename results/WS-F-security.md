@@ -65,7 +65,7 @@ holds no non-loopback socket. A standing regression test would strengthen this (
 Tree-wide scan (`*.py *.json *.toml *.sh *.md *.txt *.cfg *.ini *.env*`) for password / secret /
 api_key / access_key / token / credential / private-key PEM / `AKIA…` / `AIza…` / bearer:
 **zero hardcoded secrets.** Every hit is either the word "token(s_per_s)" in latency metrics, or
-the plan/SETUP docs *describing* the `ANDROID_KEYSTORE`/`HF_TOKEN` that live only in CI/personal
+the planning notes *describing* the `ANDROID_KEYSTORE`/`HF_TOKEN` that live only in CI/personal
 env and are explicitly **never in repo**. The design has no accounts/keys and the code matches it.
 
 ## 4. Local history storage

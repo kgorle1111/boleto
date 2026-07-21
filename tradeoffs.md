@@ -68,7 +68,7 @@ Every consequential either/or, with what we chose, what it costs, and what would
 
 - PRICE: less "helpful" than an app that says "you should file a claim, here's the button." Deliberate: filing crosses into liability and — worse for the user — into retaliation-triggering territory the worker didn't choose.
 - The human path: export-as-image → show a worker-center advocate. The advocate is the actuator; Boleto is the evidence.
-- Wording (not architecture) is the residual legal exposure → SETUP.md item: one advocate/lawyer review of receipt copy.
+- Wording (not architecture) is the residual legal exposure → needs one advocate/lawyer review of receipt copy.
 
 ## 9. Language: Spanish + English only (REVISED 2026-07-19 — Mixteco eliminated)
 

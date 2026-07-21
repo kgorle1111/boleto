@@ -152,7 +152,7 @@ our eval caught every regression before it could ship — that discipline IS the
 5. **Statute wording unreviewed by counsel** — §10.6 #4.
 6. At-rest DB encryption deferred to the Android/Tauri ports (threat F8).
 
-## The remaining human steps (SETUP.md — nobody else can do these)
+## The remaining human steps (nobody else can do these)
 
 1. Consented real tickets (CRLA channel) → run the one-command eval → the real number.
 2. LoRA fine-tune on the WS-C set → the before/after delta (the pitch centerpiece).

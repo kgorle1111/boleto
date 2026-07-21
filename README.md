@@ -94,9 +94,8 @@ built against frozen contracts, integrated, and adversarially reviewed (8 findin
 found and fixed, each with a regression test). It passes the ship bar on everything
 measurable today: printed tickets, real model, 0 escaped errors. What it does not yet
 have is real consented handwritten tickets, counsel-reviewed statute wording, and a
-verified 2026 minimum-wage figure. Those are steps for a real rollout, listed in
-[SETUP.md](SETUP.md), not gaps in the demo. Design decisions and rejected alternatives
-are in [tradeoffs.md](tradeoffs.md).
+verified 2026 minimum-wage figure. Those are steps for a real rollout, not gaps in the
+demo. Design decisions and rejected alternatives are in [tradeoffs.md](tradeoffs.md).
 
 *Not legal advice. This is an estimate to bring to an advocate. Help in California:
 California Rural Legal Assistance (CRLA), crla.org.*
