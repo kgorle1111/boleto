@@ -1,0 +1,47 @@
+# ─── Boleto submission .gitignore ───────────────────────────────────────────
+# Goal: ship the code + evidence, keep private idea/planning docs, heavy
+# regenerable data, and model weights out of the public submission repo.
+
+# --- Private idea / planning / pitch-prep docs (NOT for the submission) ------
+boleto idea - 00.md
+project creation plan.md
+presentation-prep.md
+# Kept on purpose (evidence judges should see): README.md, SETUP.md,
+# tradeoffs.md, results/FINAL-REPORT.md, results/WS-*.md. Delete a line above
+# if you'd rather ship it, or add one below to hide more.
+
+# --- Model weights: the LoRA adapters (1.2 GB, >100MB/file → GitHub rejects) -
+# The LoRA negative-result STORY still ships via results/FINAL-REPORT.md and the
+# small JSONs in evals/results/. The weights themselves are not needed to tell it.
+evals/adapters/
+
+# --- Heavy, regenerable synthetic data (261 MB; rebuilt by evals/generator.py)
+evals/tickets_train/
+evals/tickets_synthetic/
+
+# --- Runtime artifacts (regenerated on demo/app run) ------------------------
+demo_session/history.db
+*.db
+
+# --- Python ------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.hypothesis/
+.ruff_cache/
+.mypy_cache/
+
+# --- Virtualenvs -------------------------------------------------------------
+.venv/
+.venv-gemma/
+venv/
+env/
+
+# --- OS / editor -------------------------------------------------------------
+.DS_Store
+.idea/
+.vscode/
+*.swp

@@ -1,0 +1,21 @@
+[project]
+name = "boleto"
+version = "0.1.0"
+description = "On-device wage-audit system for CA piece-rate farmworkers. The AI drafts; the human decides."
+requires-python = ">=3.12"
+dependencies = [
+    "pillow>=10",
+    "numpy>=1.26",
+    "imagehash>=4.3",
+    "fastapi>=0.110",
+    "uvicorn>=0.29",
+    "hypothesis>=6.100",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["core", "extraction", "evals", "app", "tests"]
+python_files = ["test_*.py", "*_test.py"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
