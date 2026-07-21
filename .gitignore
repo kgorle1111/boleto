@@ -45,3 +45,7 @@ env/
 .idea/
 .vscode/
 *.swp
+
+# submission form copy and LinkedIn marketing assets (kept local, not in the repo)
+DEVPOST.md
+assets/screenshots/linkedin/
