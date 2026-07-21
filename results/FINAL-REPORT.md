@@ -80,7 +80,7 @@ secrets).
 WS-C green · WS-D F4 6/6 · all self-runners green · one-command demo
 (`bash demo_session/run_demo.sh`) drives happy / caught-error / mismatch paths.
 
-## E4B ensemble-config sweep (evals/results/config_sweep_*_e4b_*.md)
+## E4B ensemble-config sweep
 
 Six configs on printed, three on generator-handwritten (evals/config_sweep.py,
 re-runnable, adaptive off so K is exact):
@@ -99,8 +99,7 @@ re-runnable, adaptive off so K is exact):
 ## LoRA fine-tune experiments — honest negative result (2026-07-19)
 
 Four controlled runs against a FIXED handwritten eval (identical seed-11 batch per
-comparison; train seed 2026, never overlapping). All numbers committed in
-evals/results/config_sweep_*_adapter*.json.
+comparison; train seed 2026, never overlapping).
 
 | Attempt | Recipe | pay-exact | escaped | Base same batch |
 |---|---|---|---|---|
@@ -156,5 +155,5 @@ our eval caught every regression before it could ship — that discipline IS the
 
 1. Consented real tickets (CRLA channel) → run the one-command eval → the real number.
 2. LoRA fine-tune on the WS-C set → the before/after delta (the pitch centerpiece).
-3. Human baseline (materials ready in `evals/results/human_baseline/`).
+3. Human baseline comparison.
 4. Legal wording pass; 5. MW config verification; 6. the 90-second demo itself.
