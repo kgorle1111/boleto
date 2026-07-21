@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Boleto ticket extraction",
+  "description": "Strict schema for one piece-rate punch ticket. The model MUST emit exactly these keys. Malformed output routes to human review, never crashes.",
+  "type": "object",
+  "required": ["worker_id", "date", "rows", "productive_hours", "nonproductive_hours", "rest_hours"],
+  "additionalProperties": false,
+  "properties": {
+    "worker_id": {"type": "string"},
+    "date": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+    "rows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["crop", "units", "rate"],
+        "additionalProperties": false,
+        "properties": {
+          "crop": {"type": "string"},
+          "units": {"type": "integer", "minimum": 0},
+          "rate": {"type": "number", "minimum": 0}
+        }
+      }
+    },
+    "productive_hours": {"type": "number", "minimum": 0},
+    "nonproductive_hours": {"type": "number", "minimum": 0},
+    "rest_hours": {"type": "number", "minimum": 0}
+  }
+}

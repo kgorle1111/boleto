@@ -1,0 +1,9 @@
+paystub@1
+---
+This is a printed California farm-labor paystub. Extract STRICT JSON with keys:
+worker_id (string), period_start (YYYY-MM-DD), period_end (YYYY-MM-DD),
+piece_total (number, total piece-rate earnings this period),
+hours_paid (number), amount_paid (number, gross this period),
+lines (array of {label, amount}) for any itemized pay lines shown.
+
+Numbers only for numeric fields. If a field is absent use null. Output JSON only, no prose.

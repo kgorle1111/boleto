@@ -1,0 +1,21 @@
+{
+  "format_id": "format_0",
+  "description": "The htr_harness.py printed layout: 520x380 white ticket, header line then per-row crop/units/rate lines, then three hour lines. Field-region boxes are [x0, y0, x1, y1] in pixels. rows[*] boxes are templated by row index with a 24px vertical stride starting at y=38.",
+  "image_size": [520, 380],
+  "header": {"box": [12, 12, 508, 38], "contains": ["worker_id", "date"]},
+  "rows": {
+    "start_y": 38,
+    "stride_y": 24,
+    "max_rows": 3,
+    "cell_boxes": {
+      "crop":  [20, 0, 150, 24],
+      "units": [150, 0, 300, 24],
+      "rate":  [300, 0, 460, 24]
+    },
+    "note": "cell_boxes y-coords are relative to each row's start_y + index*stride_y; add start_y+index*stride_y to y0/y1."
+  },
+  "productive_hours":    {"box": [20, 118, 400, 140]},
+  "nonproductive_hours": {"box": [20, 140, 400, 162]},
+  "rest_hours":          {"box": [20, 162, 400, 184]},
+  "kn_note": "kn: boxes hand-derived from htr_harness gen() text offsets; regenerate this spec from the generator if the layout changes. Real handwritten tickets need their own formats/format_1..N.json."
+}

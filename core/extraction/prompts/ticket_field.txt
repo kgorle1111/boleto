@@ -1,0 +1,10 @@
+ticket_field@1
+---
+You are reading ONE cropped field from a handwritten farm piece-rate punch ticket.
+The crop shows a single value: {field_name}.
+
+Rules:
+- Output ONLY the value, as strict JSON: {"value": <number-or-string>}
+- Numeric fields (units, rate, hours) must be numbers, not strings.
+- If the crop is blank or unreadable, output {"value": null}.
+- Do not guess. Do not explain. JSON only.
