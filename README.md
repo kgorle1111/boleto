@@ -54,10 +54,11 @@ the model is unsure about is gated behind a human. The model never decides; it r
 - **Adversarial QA.** Eight code-review, critic, and security findings were found and
   fixed, each pinned by a regression test (46 tests total, green in CI on the mock
   backend so it needs no GPU).
-- **A negative result, on purpose.** I fine-tuned four LoRA specialists to beat the base
-  model; the eval rejected every one before it could ship. The reliability comes from the
-  system around the model (ensemble, deterministic engine, human gate), not from a bigger
-  model. Details in [results/FINAL-REPORT.md](results/FINAL-REPORT.md).
+- **A negative result, on purpose.** I fine-tuned four LoRA adapters on Gemma 4 E4B to push
+  handwriting accuracy; the eval rejected every one before it could ship, and the model that
+  actually ships is stock Gemma 3. The reliability comes from the system around the model
+  (ensemble, deterministic engine, human gate), not from a bigger or fine-tuned one. Details
+  in [results/FINAL-REPORT.md](results/FINAL-REPORT.md).
 
 ## Screenshots
 
