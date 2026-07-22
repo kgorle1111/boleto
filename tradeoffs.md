@@ -98,3 +98,12 @@ Every consequential either/or, with what we chose, what it costs, and what would
 
 - Universal handwriting-anywhere is a mirage that would blow the accuracy floor. One region's handful of employer formats is enumerable, testable, and where the pilot is. New regions = new format pack + eval set, added deliberately.
 - REVERSAL TRIGGER: three inbound requests from another region/crop with ticket samples in hand → build that pack.
+
+## 13. Packaging: Dockerfile vs none
+
+**Chose: no Dockerfile. Local Python app for dev/eval, native (#4) and Tauri (#5) clients for users. Revisit only if a hosted server mode lands.**
+
+- Boleto is on-device by thesis (#1, #7): the deploy targets are a phone and a desktop shell, not a container. Docker is a server-deployment tool; here it would fight the "nothing leaves the device" story instead of serving it.
+- The model doesn't containerize cleanly anyway: MLX is Apple-Silicon-only (no Linux container) and Ollama is a separate model server. A Dockerfile could only wrap the FastAPI app on the *mock* backend, which proves nothing real — and a reviewer reading an on-device app plus a container that can't run the model reads it as cargo-culting.
+- PRICE: none worth paying. Reproducibility is already covered by `pip install -e .` + `uvicorn`, green in CI; a Dockerfile would duplicate that signal without adding one.
+- REVERSAL TRIGGER: the hosted/team version (persistent mirror environments for orgs) — that one IS a server, and gets a Dockerfile pointing at a model API or an Ollama sidecar. Not before.
