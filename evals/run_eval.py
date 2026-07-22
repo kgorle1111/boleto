@@ -18,6 +18,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import resource
 import sys
 import time
@@ -30,7 +31,9 @@ from evals import generator, metrics, pipeline
 
 DIR = Path(__file__).parent
 RESULTS = DIR / "results"
-TICKETS_REAL = DIR.parent / "tickets"
+# default: the 8 committed printed tickets. Override with BOLETO_REAL_DIR to point
+# at a hand-written set (e.g. evals/tickets_real) without disturbing the printed set.
+TICKETS_REAL = Path(os.environ.get("BOLETO_REAL_DIR", DIR.parent / "tickets"))
 
 REAL_CMD = "BOLETO_MODEL=gemma3:latest .venv-gemma/bin/python -m evals.run_eval --source synthetic --n 400"
 

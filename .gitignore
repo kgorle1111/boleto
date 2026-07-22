@@ -61,3 +61,6 @@ evals/results/eval_log.md
 evals/results/eval_2026-07-19_*
 evals/results/human_baseline/
 evals/results/archive/
+
+# real / hand-written ticket eval set — stays local (tradeoffs #11)
+evals/tickets_real/
